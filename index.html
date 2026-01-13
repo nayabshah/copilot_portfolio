@@ -1,30 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ariba, MERN Stack Developer">
+  <title>Ariba | MERN Stack Developer</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    <main>
-        <h2>About Me</h2>
-        <p>I am a web developer with expertise in modern frontend and backend technologies.</p>
+  <header>
+    <nav>
+      <h1>Ariba</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h2>MERN Stack Developer</h2>
+      <p>Experienced in modern web applications using ReactJS, Node.js, and MongoDB.</p>
+      <a href="https://drive.google.com/file/d/1l_0LO1rXCRyQ8d09nAOLW6DoptNlBeq1/view?usp=sharing" class="btn">Download Resume</a>
+    </section>
+  </header>
 
-        <h2>Skills</h2>
-        <div class="skills">
-            <img src="images/react.svg" alt="React">
-            <img src="images/nodejs.svg" alt="Node.js">
-            <img src="images/mongodb.svg" alt="MongoDB">
-            <img src="images/bootstrap.svg" alt="Bootstrap">
-            <img src="images/github.svg" alt="GitHub">
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate and experienced MERN Stack Developer adept at delivering high-performance and secure 
+        solutions. I specialize in front-end frameworks, debugging, and code quality assurance, always 
+        committed to providing the best user experiences.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <img src="images/react.svg" alt="ReactJS">
+          <span>ReactJS</span>
         </div>
-    </main>
-    <footer>
-        <p>© 2026 My Portfolio. All rights reserved.</p>
-    </footer>
+        <div class="skill">
+          <img src="images/nodejs.svg" alt="Node.js">
+          <span>Node.js</span>
+        </div>
+        <div class="skill">
+          <img src="images/mongodb.svg" alt="MongoDB">
+          <span>MongoDB</span>
+        </div>
+        <div class="skill">
+          <img src="images/bootstrap.svg" alt="Bootstrap">
+          <span>Bootstrap</span>
+        </div>
+        <div class="skill">
+          <img src="images/github.svg" alt="GitHub">
+          <span>GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>Feedback App</h3>
+          <p>A feature-rich feedback app in React for adding, deleting, and updating feedback with ratings. Hosted on Netlify.</p>
+          <a href="https://github.com/nayabshah/feedback-app" target="_blank">GitHub</a>
+          <a href="https://heuristic-ardinghelli-0cdc45.netlify.app" target="_blank">Live Demo</a>
+        </div>
+        <div class="project">
+          <h3>GitHub Finder</h3>
+          <p>An application to find GitHub users and display their profiles and repositories using the GitHub API.</p>
+          <a href="https://github.com/nayabshah/github-finder" target="_blank">GitHub</a>
+          <a href="https://github-finder-nayanshah.vercel.app" target="_blank">Live Demo</a>
+        </div>
+        <div class="project">
+          <h3>Image Gallery</h3>
+          <p>A gallery app with GitHub OAuth2 login and infinite scroll. Built using Next.js and Unsplash API.</p>
+          <a href="https://github.com/nayabshah/ImageGallery" target="_blank">GitHub</a>
+          <a href="https://image-gallery-w1o1.vercel.app" target="_blank">Live Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <p>Bachelor's in Computer Applications (BCA), IGNOU, Delhi</p>
+      <p>Ongoing (2023 - Present)</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p><strong>Phone:</strong> +91 9354201432</p>
+      <p><strong>Email:</strong> <a href="mailto:ariba@thewion.com">ariba@thewion.com</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/nayabshah" target="_blank">github.com/nayabshah</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ariba. All rights reserved.</p>
+  </footer>
 </body>
 </html>
