@@ -1,0 +1,1 @@
+Portfolio of Ariba, a skilled MERN Stack Developer. Showcasing skills, projects, and contact information.
